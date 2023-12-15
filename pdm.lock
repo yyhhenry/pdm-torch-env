@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:6be965f864a64cc1a79f91224f3694df58c1fafd79807394bb235d0346741332"
+content_hash = "sha256:3ba6b7559e08e3496beef58beaeae2262588521c160a583de5b55ff430da5387"
 
 [[package]]
 name = "filelock"

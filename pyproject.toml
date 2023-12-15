@@ -3,8 +3,8 @@ authors = [
   {name = "yyhhenry", email = "yyhhenry@foxmail.com"},
 ]
 dependencies = [
-    "numpy>=1.26.2",
-    "torch==2.1.2",
+  "numpy==1.26.2",
+  "torch==2.1.2",
 ]
 description = "Default template for PDM package"
 license = {text = "MIT"}
