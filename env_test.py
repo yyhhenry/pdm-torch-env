@@ -10,4 +10,11 @@ import torch
 from torch import Tensor
 
 print("torch == ", torch.__version__)
-print(Tensor([1, 2, 3]) * Tensor([1, 2, 3]))
+
+x = Tensor([1, 2, 3]).cuda()
+y = Tensor([1, 4, 9]).cuda()
+assert bool((x * x == y).all().item())
+
+import torchvision
+
+print("torchvision == ", torchvision.__version__)
