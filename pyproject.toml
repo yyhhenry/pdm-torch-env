@@ -3,10 +3,8 @@ authors = [
   {name = "yyhhenry", email = "yyhhenry@foxmail.com"},
 ]
 dependencies = [
-  "numpy==1.26.2",
-  "torch==2.1.2",
-  "torchvision==0.16.2",
-  "setuptools==69.0.2",
+  "torch==2.2.1",
+  "torchvision==0.17.1",
 ]
 description = "Default template for PDM package"
 license = {text = "MIT"}
